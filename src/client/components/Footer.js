@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Ins from 'svg-react-loader?name=Wsvg!../assets/svg/instagram-logo.svg';
-import Linkedin from 'svg-react-loader?name=Wsvg!../assets/svg/social-linkedin-circular-button.svg';
-import Github from 'svg-react-loader?name=Wsvg!../assets/svg/github-logo.svg';
-import Mail from 'svg-react-loader?name=Wsvg!../assets/svg/gmail.svg';
+import github from '../assets/icons/github-logo.png';
+import mail from '../assets/icons/gmail.png';
+import ins from '../assets/icons/instagram-logo.png';
+import linkedin from '../assets/icons/social-linkedin-circular-button.png';
 
 class Footer extends Component{
   render(){
@@ -10,24 +10,24 @@ class Footer extends Component{
       <div className="footer has-text-centered">
         <div className="container is-fullhd">
           <div className="social-icons">
-            <span className="iconsvg" >
+            <span className="icon" >
               <a href="https://github.com/wangxx1412">
-                <Github className='normal'/>
+                <img src={github}/>
               </a>
             </span>
-            <span className="iconsvg">
+            <span className="icon">
               <a href="https://www.linkedin.com/in/xiaoxuan-wang-449a5998/">
-                <Linkedin className='normal' />
+                <img src={linkedin} />
               </a>
             </span>
-            <span className="iconsvg">
+            <span className="icon">
               <a href="https://www.instagram.com/xxmabuuu/?hl=en">
-                <Ins className='normal' />
+                <img src={ins} />
               </a>
             </span>
-            <span className="iconsvg">
+            <span className="icon">
               <a href="mailto:wangxiaoxuan4869@gmail.com">
-                <Mail className='normal' />
+                <img src={mail} />
               </a>
             </span>
           </div>
@@ -41,6 +41,7 @@ class Footer extends Component{
             from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>&nbsp;
             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
           </div>
+          <div className="msg-web is-size-7">Design originated from <a href="https://janlosert.com/">Jan Losert</a>.</div>
           <a className="bulma-img" href="https://bulma.io">
             <img src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="128" height="24" />
           </a>

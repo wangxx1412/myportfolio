@@ -30,7 +30,7 @@ class AddInfo extends Component{
             </div>
             <div className="addinfo-content column is-4-desktop is-offset-1-desktop is-10-touch is-offset-1-mobile is-offset-1-tablet">
               <h2 className="addinfo-title has-text-grey">HANDS ON WEB</h2>
-              <p className="addinfo-text">I learned web developing though courses and by myself, some of my workw are not finished which will be updated later, here is one fully done.</p>
+              <p className="addinfo-text">I learned web developing though courses and by myself, some of my works are not finished which will be updated later, here is one fully done.</p>
               <a href="https://wangxx1412.github.io/travel-site/">
                 <img src={travelsite}/>
               </a>
