@@ -1,0 +1,48 @@
+.resume{
+  margin-top: 80px;
+  .container{
+    background-color: #FFF;
+    padding-top: 20px;
+
+    .columns{
+      .skill-title{
+        .titleIntro{
+          font-family: "Merriweather Sans";
+        }
+          .title{
+            letter-spacing: 5px;
+            font-family: 'Oswald';
+            font-weight: 400;
+            margin-bottom: 50px;
+            line-height: 150%;
+          }
+          .subtitle{
+            font-family: 'PT Serif';
+            padding-left: 20px;
+            margin-right:40px;
+            line-height: 200%;
+            border-left: solid 1px #D2CFCE;
+            margin-bottom: 40px;
+          }
+          .btn-resume{
+            margin-bottom: 40px;
+            .btn-text{
+              font-family: 'Oswald';
+            }
+          }
+      }
+      .skill-content{
+        margin:0px 40px;
+        .content-title{
+          font-family: "Merriweather Sans";
+          margin-bottom: 20px;
+        }
+        .content-text{
+          font-family: 'PT Serif';
+          line-height: 200%;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}

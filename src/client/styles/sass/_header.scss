@@ -1,0 +1,38 @@
+.header{
+  margin-top: 70px;
+  font-family: "Merriweather Sans";
+  letter-spacing: 1px;
+}
+
+.nav-home{
+
+  &__text{
+    :after{
+      display:block;
+      content: '';
+      border-bottom: solid 2px #000;
+      transform: scaleX(0);
+      transition: transform 250ms ease-in-out;
+    }
+    :hover:after {
+      transform: scaleX(1)
+    }
+  }
+}
+
+
+.nav-btn{
+  &__text{
+    :after{
+      display:block;
+      content: '';
+      border-bottom: solid 2px #000;
+      transform: scaleX(0);
+      transition: transform 250ms ease-in-out;
+    }
+
+    :hover:after {
+      transform: scaleX(1)
+    }
+  }
+}

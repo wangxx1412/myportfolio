@@ -1,37 +1,20 @@
 import React from 'react'
+import Hero from './Hero.js'
+import Resume from './Resume.js'
+import Divider from './Divider.js'
+import AddInfo from './AddInfo.js'
+import Footer from './Footer.js'
 
 class Layout extends React.Component {
   render(){
     return(
-      <div className="container">
-        <h1 className="title">
-        Bulma
-       </h1>
-
-      <p className="subtitle">
-        Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
-      </p>
-
-      <div className="field">
-        <div className="control">
-          <input className="input" type="text" placeholder="Input" />
-        </div>
-      </div>
-
-      <div className="field">
-        <p className="control">
-          <span className="select">
-            <select>
-              <option>Select dropdown</option>
-            </select>
-          </span>
-        </p>
-      </div>
-
-      <div className="buttons">
-        <a className="button is-primary">Primary</a>
-        <a className="button is-link">Link</a>
-      </div>
+      <div>
+        <Hero />
+        <Divider />
+        <Resume />
+        <Divider />
+        <AddInfo />
+        <Footer />
       </div>
     );
   }

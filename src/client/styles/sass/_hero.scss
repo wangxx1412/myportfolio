@@ -1,0 +1,28 @@
+.hero{
+  margin-bottom: 80px;
+  .hero__content{
+    .hero__title{
+      margin-top:50px;
+      .titleIntro{
+        font-family: "Merriweather Sans";
+      }
+      .title{
+        letter-spacing: 5px;
+        font-family: 'Oswald';
+        font-weight: 400;
+        margin-bottom: 50px;
+        line-height: 150%;
+      }
+      .subtitle{
+        font-family: 'PT Serif';
+        padding-left: 20px;
+        line-height: 200%;
+        border-left: solid 1px #D2CFCE;
+        margin-right: 40px;
+      }
+    }
+    .hero__img{
+      height: auto;
+    }
+  }
+}
