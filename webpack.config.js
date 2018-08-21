@@ -2,13 +2,14 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+//const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+//const devMode = process.env.NODE_ENV !== 'production';
 
-const outputDirectory = "dist";
 
 module.exports = {
   entry: "./src/client/index.js",
   output: {
-    path: path.join(__dirname, outputDirectory),
+    path: path.resolve(__dirname, "./src/client/build"),
     filename: "bundle.js",
     //publicPath allows you to specify the base path for all the assets within your application
     publicPath:'/'
@@ -54,7 +55,7 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('./src/client/styles/css/mystyles.css'),
-    new CleanWebpackPlugin([outputDirectory]),
+    //new CleanWebpackPlugin([outputDirectory]),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
       favicon: "./public/favicon.ico"

@@ -5,6 +5,10 @@ const app = express();
 const mailer = require('./routes/mailer');
 const bodyParser = require('body-parser');
 
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(__dirname + '/dist'));
+}
+
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
@@ -13,7 +17,6 @@ app.use(function (req, res, next) {
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
 app.use('/', mailer);
 
 
