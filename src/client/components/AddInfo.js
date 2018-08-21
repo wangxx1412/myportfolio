@@ -17,7 +17,7 @@ class AddInfo extends Component{
             </div>
             <div className="addinfo-content column is-vcentered is-4-desktop is-offset-1-desktop is-10-touch is-offset-1-mobile is-offset-1-tablet">
               <h2 className="addinfo-title has-text-grey">EXPERIENCES</h2>
-              <p className="addinfo-text">Born and raied in China and studied in Harbin Engineering University majoring Electrical Engineering, then continued my student life
+              <p className="addinfo-text">Born and raised in China and studied in Harbin Engineering University majoring Electrical Engineering, then continued my student life
               in University of Victoria in Canada. I gained social skills, attitude and experiences in school and several jobs: Food delivery, research assistant, volunteers and crypto-trader.</p>
             </div>
           </div>
