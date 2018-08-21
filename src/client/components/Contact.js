@@ -77,7 +77,7 @@ class Contact extends Component{
         };
 
         axios.post(
-          'http://localhost:4000/api/send',
+          '/api/send',
           FormData
         )
           .then((response)=>{

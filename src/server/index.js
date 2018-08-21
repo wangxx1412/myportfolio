@@ -12,10 +12,10 @@ app.use(function (req, res, next) {
   next();
 });
 app.use(cors());
+
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
-
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(__dirname + '/../client/build'));
 }
@@ -25,7 +25,7 @@ app.get('*', (request, response) => {
 });
 
 app.use('/', mailer);
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);
