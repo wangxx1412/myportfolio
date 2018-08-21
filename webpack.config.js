@@ -9,7 +9,7 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 module.exports = {
   entry: "./src/client/index.js",
   output: {
-    path: path.resolve(__dirname, "./src/client/build"),
+    path: path.join(__dirname, "./src/client/build"),
     filename: "bundle.js",
     //publicPath allows you to specify the base path for all the assets within your application
     publicPath:'/'
