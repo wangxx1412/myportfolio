@@ -102,7 +102,7 @@ class Contact extends Component{
         <header className="contact-header">
           <div className="columns is-mobile is-centered">
             <a className="column is-narrow contact-header__text has-text-black"  href="/">
-              <p className="has-text-centered">HOME</p>
+              <p className="is-size-6 has-text-centered">HOME</p>
             </a>
           </div>
         </header>
@@ -120,7 +120,7 @@ class Contact extends Component{
               <div className="field">
                 <label className="label">Name</label>
                 <p className="control  has-icons-left">
-                  <input className="input is-medium is-radiusless" name="name" onChange={this.handleChange} id="name" type="text" placeholder="e.g" />
+                  <input className="input is-medium is-radiusless" name="name" onChange={this.handleChange} id="name" type="text" placeholder="e.g. Alex Smith" />
                   <span className="icon is-small is-left">
                     <FontAwesomeIcon icon={faUser} />
                   </span>
@@ -130,7 +130,7 @@ class Contact extends Component{
               <div className="field">
                 <label className="label">Email</label>
                 <p className="control  has-icons-left">
-                  <input className="input is-medium is-radiusless" name="email"  onChange={this.handleChange}  id="email" type="email" placeholder="e.g" />
+                  <input className="input is-medium is-radiusless" name="email"  onChange={this.handleChange}  id="email" type="email" placeholder="e.g. alexsmith@gmail.com" />
                   <span className="icon is-small is-left">
                     <FontAwesomeIcon icon={faEnvelope} />
                   </span>

@@ -2,6 +2,7 @@
   margin:20px 0;
   font-family: "Merriweather Sans";
   &__text{
+    letter-spacing: 1px;
     :after{
       display:block;
       content: '';
