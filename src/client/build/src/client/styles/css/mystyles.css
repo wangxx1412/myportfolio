@@ -26,14 +26,16 @@
 .contact-header {
   margin: 20px 0;
   font-family: "Merriweather Sans"; }
-  .contact-header__text :after {
-    display: block;
-    content: '';
-    border-bottom: solid 2px #000;
-    transform: scaleX(0);
-    transition: transform 250ms ease-in-out; }
-  .contact-header__text :hover:after {
-    transform: scaleX(1); }
+  .contact-header__text {
+    letter-spacing: 1px; }
+    .contact-header__text :after {
+      display: block;
+      content: '';
+      border-bottom: solid 2px #000;
+      transform: scaleX(0);
+      transition: transform 250ms ease-in-out; }
+    .contact-header__text :hover:after {
+      transform: scaleX(1); }
 
 .thx-msg {
   margin: 20px 0;
@@ -2132,7 +2134,7 @@ a.box:active {
 .input,
 .textarea {
   background-color: white;
-  border-color: transparent;
+  border-color: #D2CFCE;
   color: #363636;
   box-shadow: none;
   max-width: 100%;
@@ -2352,7 +2354,7 @@ a.box:active {
     padding-left: 1em; }
   .select select {
     background-color: white;
-    border-color: transparent;
+    border-color: #D2CFCE;
     color: #363636;
     cursor: pointer;
     display: block;
