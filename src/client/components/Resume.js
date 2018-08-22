@@ -44,7 +44,7 @@ class Resume extends Component{
                   <dt><strong>UI/UX Design:</strong></dt>
                   <dd>Sketch, Lunacy, Adobe PhotoShop.</dd>
                   <dt><strong>Others:</strong></dt>
-                  <dd>GraphQL, Python, Mithril, AWS, Hapi.js.</dd>
+                  <dd>GraphQL,Vue, Python, Mithril, AWS, Hapi.js.</dd>
                 </dl>
               </div>
             </div>
