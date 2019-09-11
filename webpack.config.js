@@ -41,7 +41,7 @@ module.exports = {
     ]
   },
   devServer: {
-    //historyAPIFallback will redirect 404s to /index.html
+    contentBase: __dirname + "/dist",
     historyApiFallback: true,
     port: 3000,
     open: true,
@@ -58,7 +58,6 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin("./src/client/styles/css/mystyles.css"),
-    //new CleanWebpackPlugin([outputDirectory]),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
       favicon: "./public/favicon.ico"
