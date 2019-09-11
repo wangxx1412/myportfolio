@@ -63,6 +63,6 @@ module.exports = {
       template: "./public/index.html",
       favicon: "./public/favicon.ico"
     }),
-    new CleanWebpackPlugin()
+    new CleanWebpackPlugin("./src/client/build")
   ]
 };
