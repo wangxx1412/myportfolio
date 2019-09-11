@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Me from "../assets/images/myself.jpg";
+import selfie from "../assets/images/selfie.jpg";
 import { Link } from "react-router-dom";
 
 class Hero extends Component {
@@ -32,7 +32,7 @@ class Hero extends Component {
             </div>
             <div className="column is-5-desktop is-offset-1 is-hidden-touch">
               <div className="hero__img ">
-                <img src={Me} />
+                <img src={selfie} />
               </div>
             </div>
           </div>
