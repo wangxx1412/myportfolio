@@ -23,8 +23,8 @@ class AddInfo extends Component {
                 Born and raised in China and studied in Harbin Engineering
                 University majoring Electrical Engineering, then continued my
                 student life in University of Victoria in Canada. I gained
-                social skills, attitude and experiences in school and several
-                jobs: Food delivery, research assistant, volunteers and
+                social skills, attitude and academic experiences in school and
+                several jobs: Food delivery, research assistant, volunteers and
                 crypto-trader.
               </p>
             </div>

@@ -31,24 +31,25 @@ class Resume extends Component {
               <div className="content-text">
                 <p>
                   I grew my interest and skills in web developing by numerous
-                  resources on the Internet. Here are the skills I mainly use:
+                  resources on the Internet and enhanced through Lighthouse Labs
+                  Bootcamp. Here are the skills I have:
                 </p>
                 <dl>
                   <dt>
-                    <strong>Front end:</strong>
+                    <strong>Programming Languages:</strong>
+                  </dt>
+                  <dd>JavaScript, HTML, CSS, Ruby</dd>
+                  <dt>
+                    <strong>Frameworks, Libraries:</strong>
                   </dt>
                   <dd>
-                    HTML, CSS, Javascript, React, Redux, GraphQL, Vue, SASS,
-                    PostCSS.
+                    React, Rails, JQuery, Vue, Express, SASS, Material UI,
+                    GraphQL, Jest, Mocha, Chai, Cypress, React Testing Library
                   </dd>
                   <dt>
-                    <strong>Back end:</strong>
+                    <strong>DB and Tools:</strong>
                   </dt>
-                  <dd>Node.js, Express, MongoDB.</dd>
-                  <dt>
-                    <strong>Tools:</strong>
-                  </dt>
-                  <dd>Git, Webpack, Heroku, Jest, Mocha and TypeScript.</dd>
+                  <dd>PostgresSQL, MongoDB, Git, Trello, Vagrant, Webpack</dd>
                 </dl>
               </div>
               <h2 className="content-title has-text-grey">ACADEMIC</h2>
@@ -78,7 +79,7 @@ class Resume extends Component {
                   <dt>
                     <strong>Skills:</strong>
                   </dt>
-                  <dd>Laravel, SQL, PostgreSQL, Python and D3.</dd>
+                  <dd>PHP, Java, Python and more.</dd>
                 </dl>
               </div>
             </div>
